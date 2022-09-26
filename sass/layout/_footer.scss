@@ -54,12 +54,13 @@ footer {
     background: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-dur-and-func);
 
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+    }
 }
 
-.footer-list-link:hover,
-.footer-list-link:focus {
-    background-color: #2196F3;
-}
+
 
 .footer-list-icon {
     fill: #FFFFFF
@@ -108,15 +109,15 @@ footer {
     background: #2F303A;
     color: var(--main-bg-color);
     transition: border-color var(--transition-dur-and-func);
-}
 
-.footer-form-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form-input:focus {
-    outline: none;
-    border-color: var(--accent-color);
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    &:focus {
+        outline: none;
+        border-color: var(--accent-color);
+    }
 }
 
 .footer-form-field-input {
@@ -141,13 +142,14 @@ footer {
     color: var(--main-bg-color);
     border-radius: 4px;
     transition: var(--transition-dur-and-func);
+
+    &:active,
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
-.footer-form-btn:active,
-.footer-form-btn:hover,
-.footer-form-btn:focus {
-    background-color: var(--accent-color);
-}
 
 .footer-form-icon {
     align-self: center;

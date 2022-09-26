@@ -15,26 +15,7 @@ button {
     letter-spacing: 0.03em  
 }
 
-.list-btn {
-    font-family: var(--roboto-font-constant);
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding: 6px 22px;
-    border: 0;
-    border-radius: 4px;
-    color: var(--main-bg-color);
-}
 
-.list-btn:hover,
-.list-btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-            0px 1px 2px rgba(0, 0, 0, 0.08),
-            0px 2px 2px rgba(0, 0, 0, 0.12);
-    background: var(--accent-color);
-    color: var(--main-bg-color)  
-}
 
 .list-btn {
     font-family: var(--roboto-font-constant);
@@ -43,8 +24,20 @@ button {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 22px;
+    border: 0;
+    border-radius: 4px;
     color: var(--menu-link-color);
     transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        background: var(--accent-color);
+        color: var(--main-bg-color)
+     }
 }
 
 .main-baner-button {
@@ -57,10 +50,11 @@ button {
     padding: 10px 32px;
     background-color: var(--button-background-color);
     color: var(--main-bg-color);
+
+    &:active,
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        }
 }
 
-.main-baner-button:active,
-.main-baner-button:hover,
-.main-baner-button:focus {
-    background-color: var(--accent-color);
-}

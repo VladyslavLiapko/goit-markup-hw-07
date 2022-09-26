@@ -12,8 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
@@ -21,30 +20,29 @@
     <header class="page-header">
         <div class="container page-header-container">
             <nav class="page-navigation ">
-                <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+                <a class="logo page-navigation__logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
                 <ul class="menu list ">
-                    <li class="menu-item   ">
-                        <a class="menu-link  current" href="">Студія</a>
+                    <li class="menu__item   ">
+                        <a class="menu__link  current" href="">Студія</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="./portfolio.html">Портфоліо</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="./portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="">Контакти</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Контакти</a>
                     </li>
                 </ul>
             </nav>
             <ul class="contacts">
-
-                <li class="contacts-list-item">
-                    <a class="contacts-list-item-link " href="mailto:info@devstudio.com">
+                <li class="contacts__list-item">
+                    <a class="contacts__list-item-link " href="mailto:info@devstudio.com">
                         <svg class="contacts-icon-envelope" width="16" height="12">
                             <use href="./images/icons.svg/symbol-defs.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
 
-                <li class="contacts-list-item phone">
-                    <a class="contacts-list-item-link" href="tel:+380961111111">
+                <li class="contacts__list-item phone">
+                    <a class="contacts__list-item-link" href="tel:+380961111111">
                         <svg class="contacts-icon-smartphone" width="10" height="16">
                             <use href="./images/icons.svg/symbol-defs.svg#icon-smartphone"></use>
                         </svg>+38096 111111 </a>
@@ -66,49 +64,49 @@
         <section class="benefits">
             <div class="container">
                 <h2 class="visually-hidden">Наші переваги</h2>
-                <ul class="benefits-list">
-                    <li class="benefits-item benefits-icon-list">
+                <ul class="benefits__list">
+                    <li class="benefits__item benefits__icon-list">
                         <div class="box-icons">
-                            <svg class="benefits-icon" width="70" height="70">
+                            <svg class="benefits__icon" width="70" height="70">
                                 <use href="./images/icons.svg/symbol-defs.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="benefits-text">
+                        <h3 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="benefits__text">
                             Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                         </p>
 
                     </li>
-                    <li class="benefits-item benefits-icon-list">
+                    <li class="benefits__item benefits__icon-list">
                         <div class="box-icons">
-                            <svg class="benefits-icon" width="70" height="70">
+                            <svg class="benefits__icon" width="70" height="70">
                                 <use href="./images/icons.svg/symbol-defs.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="benefits-text">
+                        <h3 class="benefits__title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="benefits__text">
                             Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                         </p>
                     </li>
-                    <li class="benefits-item benefits-icon-list">
+                    <li class="benefits__item benefits__icon-list">
                         <div class="box-icons">
-                            <svg class="benefits-icon" width="70" height="70">
+                            <svg class="benefits__icon" width="70" height="70">
                                 <use href="./images/icons.svg/symbol-defs.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
-                        <p class="benefits-text">
+                        <h3 class="benefits__title">ПЛАНУВАННЯ</h3>
+                        <p class="benefits__text">
                             Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="benefits-item benefits-icon-list">
+                    <li class="benefits__item benefits__icon-list">
                         <div class="box-icons">
-                            <svg class="benefits-icon" width="70" height="70">
+                            <svg class="benefits__icon" width="70" height="70">
                                 <use href="./images/icons.svg/symbol-defs.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="benefits-text">
+                        <h3 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="benefits__text">
                             Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                         </p>
                     </li>
@@ -120,22 +118,22 @@
         <section class="directions section">
             <div class="container">
                 <h2 class="what-we-do">Чим ми займаємося</h2>
-                <ul class="directions-list">
-                    <li class="directions-cards">
-                        <div class="directions-overlay-wrapper">
-                            <p class="directions-overlay">Десктопні додатки</p>
+                <ul class="directions__list">
+                    <li class="directions__cards">
+                        <div class="directions__overlay-wrapper">
+                            <p class="directions__overlay">Десктопні додатки</p>
                             <img src="./images/box1.jpg" alt="ноутбук" width="370" height="294" />
                         </div>
                     </li>
-                    <li class="directions-cards">
-                        <div class="directions-overlay-wrapper">
-                            <p class="directions-overlay">Мобільні додатки</p>
+                    <li class="directions__cards">
+                        <div class="directions__overlay-wrapper">
+                            <p class="directions__overlay">Мобільні додатки</p>
                             <img src="./images/box2.jpg" alt="мобільний телефон" width="370" height="294" />
                         </div>
                     </li>
-                    <li class="directions-cards">
-                        <div class="directions-overlay-wrapper">
-                            <p class="directions-overlay">Дизайнерські рішення</p>
+                    <li class="directions__cards">
+                        <div class="directions__overlay-wrapper">
+                            <p class="directions__overlay">Дизайнерські рішення</p>
                             <img src="./images/box3.jpg" alt="планшет" width="370" height="294" />
                         </div>
                     </li>
@@ -351,10 +349,8 @@
 
     <footer>
         <div class="container footer-general">
-            <div class="footer-logo-address">
-
-
-                <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+            <div class="footer-address">
+                <a class="logo footer-address__logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
 
                 <address class="address">
                     <ul class="address-lines">

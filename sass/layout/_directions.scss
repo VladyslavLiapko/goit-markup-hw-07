@@ -16,21 +16,16 @@
 }
 
 
-.what-we-do,
-.our-crew-label {
-    text-align: center;
-}
-
-.directions-list {
+.directions__list {
     display: flex;
     gap: 30px;
 }
 
-.directions-overlay-wrapper {
+.directions__overlay-wrapper {
     position: relative;
 }
 
-.directions-overlay {
+.directions__overlay {
     position: absolute;
     display: flex;
     justify-content: center;

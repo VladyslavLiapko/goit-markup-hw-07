@@ -1,25 +1,25 @@
-.logo {
-    margin-right: 93px;
-}
+
 
 .logo-web {
     color: var(--accent-color);
 }
 
-.logo {
+.footer-address__logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
-.page-navigation .logo {
+.page-navigation__logo {
     font-family: var(--raleway-font-constant);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
     color: var(--menu-link-color);
 }
