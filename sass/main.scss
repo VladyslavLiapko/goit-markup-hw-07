@@ -1,10 +1,17 @@
 @import './utils/variables';
+@import './utils/visually-hidden';
+
 @import './base/common';
 @import './base/section';
 @import './base/container';
-@import './utils/visually-hidden';
-@import './layout/page-header';
+
 @import './components/button';
+@import './components/mobile-menu';
+@import './components/logo';
+@import './components/current';
+@import './components/backdrop';
+@import './components/modal-window';
+
 @import './layout/main-baner';
 @import './layout/benefits';
 @import './layout/directions';
@@ -12,7 +19,4 @@
 @import './layout/footer';
 @import './layout/clients';
 @import './layout/portfolio';
-@import './components/logo';
-@import './components/current';
-@import './components/backdrop';
-@import './components/modal-window';
+@import './layout/page-header';
