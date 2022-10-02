@@ -1189,14 +1189,22 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
+  .footer-general {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+  }
   .footer-box {
-    margin-left: 70px;
+    display: inline;
+    margin-left: 165px;
+  }
+  .footer-address {
+    display: inline;
   }
   .footer-form {
-    margin-left: auto;
-  }
-  .footer-form-btn {
-    display: flex;
+    width: 450px;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -144,16 +144,11 @@ footer {
     }
 }
 
-
 .footer-form-icon {
     align-self: center;
 }
 
 @media screen and (min-width: 480px) {
-    // footer-general
-    //    footer-address
-    //    footer-box
-    //    footer-form
 
     .footer-general {
         display: flex;
@@ -206,18 +201,32 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+
+    .footer-general {
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
     .footer-box {
-            margin-left: 70px;
-        }
+        display: inline;
+        margin-left: 165px;
+    }
+
+    .footer-address {
+        display: inline;
+    }
 
     .footer-form {
-        margin-left: auto;
+        width: 450px;
+        justify-content: center;
     }
 
-    .footer-form-btn {
-        display: flex;
-    }
 }
+
+
+
 @media screen and (min-width: 1200px) {
     .footer-box {
             margin-left: 70px;
