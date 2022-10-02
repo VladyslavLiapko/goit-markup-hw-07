@@ -9,14 +9,14 @@
       background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-      url(../../images/baner-mobile.jpg);
+      url(./../../images/baner-mobile.jpg);
   }
 
   .main-baner-title {
       margin-bottom: 30px;
       font-family: var(--roboto-font-constant);
 
-      
+
       font-weight: 900;
       font-size: 26px;
       line-height: 1.61;
@@ -35,7 +35,7 @@
         background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../../images/baner-mobile.jpg);
+        url(./../../images/baner-mobile.jpg);
     }
 
     .main-baner-title {
@@ -60,7 +60,7 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../../images/baner-tablet.jpg);
+            url(./../../images/baner-tablet.jpg);
     }
 
     .main-baner-title {
@@ -92,7 +92,7 @@
         background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(../../images/baner.jpg);
+                url(./../../images/baner.jpg);
         }
 
         .main-baner-title {
