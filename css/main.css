@@ -1079,10 +1079,6 @@ footer {
   fill: #FFFFFF;
 }
 
-.footer-box {
-  margin-left: 70px;
-}
-
 .footer-general {
   display: flex;
   align-items: baseline;
@@ -1095,10 +1091,6 @@ footer {
   Margin-left: auto;
   column-gap: 12px;
   margin-top: 20px;
-}
-
-.footer-form {
-  margin-left: auto;
 }
 
 .footer-form-field-desk {
@@ -1136,7 +1128,6 @@ footer {
 }
 
 .footer-form-btn {
-  display: flex;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1161,6 +1152,64 @@ footer {
   align-self: center;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-address {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .footer-box {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .footer-form {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-form-input {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .footer-form-field-input {
+    display: block;
+  }
+  .footer-form-btn {
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-box {
+    margin-left: 70px;
+  }
+  .footer-form {
+    margin-left: auto;
+  }
+  .footer-form-btn {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-box {
+    margin-left: 70px;
+  }
+  .footer-form {
+    margin-left: auto;
+  }
+  .footer-form-btn {
+    display: flex;
+  }
+}
 @media screen and (min-width: 480px) {
   .section-title {
     font-family: "Roboto";
