@@ -337,7 +337,6 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
   padding: 40px;
   background-color: var(--main-bg-color);
 }
@@ -502,6 +501,29 @@ button {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+  .modal-form-text-checkbox {
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+  }
+  .modal-form-text-checkbox {
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+}
 .main-baner {
   color: var(--main-bg-color);
   background: #2F303A;

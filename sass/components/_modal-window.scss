@@ -3,7 +3,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 528px;
     padding: 40px;
     background-color: var(--main-bg-color);
 }
@@ -185,4 +184,31 @@
 .terms-and-conditions-href {
     color: #188CE8;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+    .modal {
+        width: 450px;
+    }
+
+    .modal-form-text-checkbox {
+        font-weight: 700;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 450px;
+    }
+
+    .modal-form-text-checkbox {
+        font-weight: 700;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .modal {
+        width: 528px;
+    }
+
 }
